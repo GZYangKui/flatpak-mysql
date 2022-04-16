@@ -9,4 +9,4 @@ aux_source_directory(. SOURCE_DIR)
 install(DIRECTORY ./include TYPE INCLUDE)
 install(DIRECTORY ./lib/ TYPE LIB)
 
-install(FILES mysqlclient.pc DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/pkgconfig)
+install(FILES mysqlclient.pc DESTINATION /usr/share/pkgconfig)
