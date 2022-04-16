@@ -9,4 +9,4 @@ aux_source_directory(. SOURCE_DIR)
 install(DIRECTORY ./lib/ TYPE LIB)
 install(DIRECTORY ./include/ TYPE INCLUDE)
 
-install(FILES mysqlclient.pc DESTINATION pkgconfig/)
+install(FILES mysqlclient.pc DESTINATION share/pkgconfig)
