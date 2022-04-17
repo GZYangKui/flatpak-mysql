@@ -7,5 +7,5 @@ Name: @PROJECT_NAME@
 Description: @CMAKE_PROJECT_DESCRIPTION@
 Version: @MYSQL_CLIENT_VERSION@
 Cflags: -I${includedir}
-Libs: -L${libdir} -Wl,-R,${libdir} -L${libdir}/private -Wl,-R,${libdir}/private -lmysqlclient
+Libs: -L${libdir} -lmysqlclient
 Libs.private: -lpthread -ldl -lcrypto -lssl -lresolv -lm -lrt
